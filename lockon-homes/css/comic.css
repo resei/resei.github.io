@@ -1,0 +1,286 @@
+body {
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+*-- Font Credits to http://www.dafont.com/yuliyan-ilev.d2140 //  --*/
+@font-face {
+font-family: 'Childwood';
+  src: url('http://lockon-homes.com/fonts/Childwood.eot'); /* IE9 Compat Modes */
+  src: url('http://lockon-homes.com/fonts/Childwood.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://lockon-homes.com/fonts/Childwood.woff2') format('woff2'), /* Super Modern Browsers */
+       url('http://lockon-homes.com/fonts/Childwood.woff') format('woff'), /* Pretty Modern Browsers */
+       url('http://lockon-homes.com/fonts/Childwood.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('http://lockon-homes.com/fonts/Childwood.ttft.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*-- Font Credits to http://www.dafont.com/weknow.d2209 //  --*/
+@font-face {
+font-family: 'TheHappyFaceSmile';
+  src: url('http://lockon-homes.com/fonts/the-happy-face-smile.eot'); /* IE9 Compat Modes */
+  src: url('http://lockon-homes.com//fonts/Cthe-happy-face-smile.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://lockon-homes.com/fonts/the-happy-face-smile.woff2') format('woff2'), /* Super Modern Browsers */
+       url('http://lockon-homes.com/fonts/the-happy-face-smile.woff') format('woff'), /* Pretty Modern Browsers */
+       url('http://lockon-homes.com/fonts/the-happy-face-smile.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('http://lockon-homes.com/fonts/the-happy-face-smile.ttft.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+p {
+margin-top: 0px;
+margin-bottom: 0px;
+font-family: 'TheHappyFaceSmile';
+color: #000000;
+}
+
+
+
+#container {
+	width: 100%;
+	background-color: #8dabdd;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+font-family: font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+color: #414141;
+}
+
+a:hover {
+font-family: Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+color: #242415;
+}
+
+a:active {
+font-family: font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+color: #414141;
+}
+
+a:visited {
+font-family: font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+color: #414141;
+}
+
+.drop_menu {
+background:#62739f;
+padding:0;
+margin:0;
+list-style-type:none;
+height:50px;
+position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.drop_menu > li { 
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.drop_menu > li a {
+padding:18px 0;
+display: block;
+color:#414141;
+text-decoration:none;
+font:12px arial, verdana, sans-serif;
+text-align: center;
+text-transform: uppercase;
+width: 100%;
+}
+
+/* Submenu */
+.drop_menu ul {
+position: relative;
+left:-9999px;
+top:-9999px;
+list-style-type:none;
+margin: 0;
+display: block;
+}
+
+
+.drop_menu li:hover { position:relative; background:#77eecc; }
+.drop_menu li:hover ul {
+left:0px;
+top:30px;
+background:#8bdafc;
+padding:0px;
+display: block;
+}
+
+.drop_menu li:hover ul li a {
+text-indent:15px;
+background-color:#8bdafc;
+position: relative;
+display: block;
+color: #fff;
+}
+
+.drop_menu li:hover ul li a:hover { background:#005555; }
+
+section {
+	width: 80%;
+	padding: 50px 10%;
+	margin: 0px;
+	float: left;
+
+}
+
+
+article {
+	line-height: 30px;
+}
+
+#ch1, #ch2, #ch3, #ch4, #ch5, #ch6 {
+	background-color: #ccbbff;
+	color: black;
+	background-image:url('../images/bg-compages-pixabay.jpg');
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+    background-position: ;
+background-size: 100%;
+
+}
+
+#ch1 article, #ch2 article, #ch3 article, #ch4 article, #ch5 article, #ch6 article {
+	border: 0px solid black;
+	text-align: left;
+	margin: 30px 10%;
+	padding: 50px 10%;
+
+}
+
+
+section h1 {
+	font-size: 60px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-top: 10px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+footer {
+clear: both;
+width: 100%;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
+height: 100%;
+background-color: #62739f;
+}
+
+/--grid---/
+
+.grid-container{
+        width: 100%; 
+        max-width: 100%px;
+	margin-left: auto;
+	margin-right: auto;      
+    }
+
+    /*-- our cleafix hack -- */ 
+    .row:before, 
+    .row:after {
+        content:"";
+          display: table ;
+        clear:both;
+    }
+
+    [class*='col-'] {
+        float: left; 
+        min-height: 1px; 
+        width: 16.66%; 
+        /*-- our gutter -- */
+        padding: 10px; 
+        background-color: ;
+    }
+
+    .col-1{ width: 35%; height: 100%; border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	margin: 5%;
+	padding: 5px;
+	height: 100%;
+	font-family: 'Childwood';}
+    .col-2{ width: 95%; height: 100%; border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	margin: 5%;
+	padding: 5px;
+	height: 100%;}
+    .col-3{ width: 30%; height: 100%;}
+    .col-4{ width: 66.66%; }
+    .col-5{ width: 83.33%; }
+    .col-6{ width: 100%;   }
+
+    .outline, .outline *{
+        outline: 0px solid #pink; 
+    }
+
+    /*-- some extra column content styling --*/
+    [class*='col-'] > p {
+     background-color: ; 
+     padding: 0;
+     margin: 0;
+     text-align: ; 
+     color: ; 
+    }
+
+/---responsive---/
+
+@media all and (max-width:800px){
+        .col-1{ width: 35%; height: 100%; border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	margin: 5%;
+	padding: 5px;
+	height: 100%;
+	font-family: 'Childwood';}
+    .col-2{ width: 95%; height: 100%; border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	margin: 5%;
+	padding: 5px;
+	height: 100%;}
+    .col-3{ width: 30%; height: 100%;}
+        .col-4{ width: 100%;    }
+        .col-5{ width: 100%;    }
+        .col-6{ width: 100%;      }
+
+        .row .col-2:last-of-type{
+            width: 100%; 
+        }
+
+        .row .col-5 ~ .col-1{
+            width: 100%; 
+        }
+    }
+
+@media all and (max-width:650px){
+        .col-1{ width: 35%; height: 100%; border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	margin: 5%;
+	padding: 5px;
+	height: 100%;
+	font-family: 'Childwood';}
+    .col-2{ width: 95%; height: 100%; border: 1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+	margin: 5%;
+	padding: 5px;
+	height: 100%;}
+    .col-3{ width: 30%; height: 100%;}
+        .col-4{ width: 100%;    }
+        .col-5{ width: 100%;    }
+        .col-6{ width: 100%;      }
+    }
+
+#social-media {
+width: 80%;
+}
