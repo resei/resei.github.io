@@ -1,0 +1,914 @@
+<!doctype html>
+
+<html>
+<head
+
+<meta charset="utf-8">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script>
+add_action( 'x_before_site_begin', 'x_print_fb_sdk' );
+function x_print_fb_sdk(){
+	?>
+      $(document).ready(function() {
+  $.ajaxSetup({ cache: true });
+  $.getScript('//http://connect.facebook.net/en_US/sdk.js', function(){
+    FB.init({
+      appId: '{lLock-On-Homes/427818597398105}',
+      version: 'v2.3' // or v2.0, v2.1, v2.0
+    });     
+    $('#loginbutton,#feedbutton').removeAttr('disabled');
+    FB.getLoginStatus(updateStatusCallback);
+  });
+});
+</script>
+<script 
+    src="https://www.facebook.com/assets.php/en_US/sdk.js" async></script>
+
+<script language="javascript">
+var popupWindow = null;
+function centeredPopup(url,winName,w,h,scroll){
+LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+settings =
+'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+popupWindow = window.open(url,winName,settings)
+}
+
+</script>
+
+
+<title>Lock-On: Homes</title>
+
+<script src="js/jquery.min.js"></script> 
+<script src="js/script.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/home.css">
+
+</head>
+
+
+<body>
+
+
+
+<div id="fb-root">
+</div>
+
+<script>
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  
+if (d.getElementById(id)) return;
+  
+js = d.createElement(s); 
+js.id = id;
+js.src = "//http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  
+fjs.parentNode.insertBefore(js, fjs);
+}
+(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div id="container">
+	
+
+<nav>
+
+<div class="drop">
+<ul class="drop_menu">
+
+<li><a href="#home" class="home"><br> <b>Home</b> </a>
+<ul>
+<li><a href="#about" class="about"> <b>Abou</b>t </a></li>
+
+<li><a href="#child-rights" class="child-rights"> <b>Child Rights</b> </a></li>
+
+</ul></li>
+<li><a href="#comic" class="comic"><br> <b>Comic</b> </a><ul>
+<li><a href="#characters" class="characters"><b>Characters</b></a></li>
+
+<li class="submenu"><a href="#chapter1" class="ch1"><b>Chapter One</b></a></li>
+
+<li><a href="#chapter2" class="ch2"><b>Chapter Two</b></a></li>
+
+<li><a href="#chapter3" class="ch3"><b>Chapter Three</b></a></li>
+<li><a href="#chapter4" class="ch4"><b>Chapter Four</b></a></li>
+<li><a href="#chapter5" class="ch5"><b>Chapter Five</b></a></li>
+<li><a href="#chapter6" class="ch6"><b>Chapter Six</b></a></li>
+</ul></li>
+<li><img src="images/logo.png" width="42%" height="42%"></li>
+
+<li><a href="#contact" class="contact"><br> <b>Contact</b> </a></li>
+
+<li><a href="http://lockon-homes.com/blog" class="blog"><br> <b>Blog</b> </a></li>
+</ul></div>
+
+</nav>
+
+
+<section id="home">
+<h1> LOCK-ON: HOMES </h1>
+<article><center><p style="font-family: verdana">Welcome! You have visited Lock-On: Homes, a web comic about The basic 10 laws of the Child Rights.<br>
+For more information go to our twitter page and facebook and gives us feedback!</p><br>
+
+
+</article>
+
+
+
+
+
+<article id="about">
+    	
+<h1> ABOUT </h1>
+        
+<article>
+<div class="grid-container outline">
+<div class="row">
+
+<div class="col-1"><p style="font-family: verdana"><b>A child has the right to:</b><br>
+
+- to be born & to be raised by parents<br>
+
+- be healthy & educated<br>
+
+- be protected against all form of abuse<br>
+
+- get protection from the government<br>
+
+- gain freedom and responsibility</p></div>
+
+<div class="col-1"><p style="font-family: verdana"><b>Responsibilities of the Child:</b><br>
+
+- Respect, obey, & love the family<br>
+
+- Get education & participate in social activities<br>
+
+- Observe Human Rights<br>
+
+- Serve and Love the Country</p></div>
+
+
+
+<div class="col-2">
+<p style="font-family: verdana"><b>The Parent and the Child</b><br>
+
+The relationship between the parent and the child altogether is the most important thing in the family. Because how a child acts outside their comfort zone will also reflect on the parent's personality. The child, especially in early ages in life, will try to imitate on what the parent is doing inside the home. The value of the parent will also influence the child since that was the way they were raised. The parents have to be careful on what they do and tell their kids, especially in the early stage, what is right and what is wrong as soon as possible. <br>
+
+<br>
+<p style="font-family: verdana"><b>The Parent</b><br>
+<b>Parents are composed of two people: The Father and the Mother.</b></p></div>
+
+<div class="col-1"><p style="font-family: verdana"><b>Traditional Way:
+</b><br>
+<img src="images/about-parent-trad.jpg" width="95%" height="95%"><br>
+
+The role of the Father is that he is the head of the family. He goes to work everyday in order to provide his family the basic needs: Food, Shelter, Water, and Clothing. He only spends his time with his family in the weekends.
+
+The role of the Mother is that she always stays at home to take care of the house. She spends all the time cooking, cleaning, and raising the child. She always has time to be with her child when the child doesn't have school.</p></div>
+<div class="col-1"><p style="font-family: verdana"><b>New Modern Way:</b><br>
+<img src="images/about-parent-mod.jpg" width="95%" height="95%"><br>
+Both the Father and the Mother work to provide the family with the basic needs: Food, Shelter, Water, and Clothing. So the parents have no choice but to hire a maid, or yaya, to raise the child. Sometimes their roles are interchangeable these days, the Father stays at home to raise the child and the Mother goes to work instead.</p></div>
+<div class="col-2"><p style="font-family: verdana"><b>The Child</b></p><br>
+<center><img src="images/about-child.jpg"></center>
+
+
+<p style="font-family: verdana">A <b>child</b> is a person who is at the below age of 18 years old and below. They are fragile and easily get hurt. The child is completely dependent in life and seeks full guidance in adults, most particularly the parents. In the early stage of their lives, everything they will see in their surroundings is considered 'right'. They will imitate everything they see, copy on what is seen in television and magazine covers. Because the child doesn't know what is right and wrong yet, so the job of the parents have a major role in the child's development.</p><br>
+
+
+
+<p style="font-family: verdana"><b>Discipline vs. Abuse</b></p></div>
+        
+<div class="col-1"><p style="font-family: verdana"><b>Discipline</b> 
+is an act to teach, behave and show children what are the rights and the wrong done by the child. Using of calm talking with minor actions. So in the end, the child will understand the situation without getting hurt physically and emotionally.<br><br>
+
+
+
+<b>Effect:</b> A Child who is well disciplined is Pampered and gain self-confidence. The child will have a positive way in life no matter what situation the child is in. The child can interact with other people easily.<br></p></div>
+
+<div class="col-1"><p style="font-family: verdana"><b>Abuse</b> however, is the contrary way. This is more the aggressive way of behaving a child. Using verbal words mixed with shouting and swearing that the child doesn't even understand, added by the slaps in any part of the child's body then leaves a mark. This kind of way injures the child physically and emotionally.<br><br>
+
+
+
+<b>Effect:</b> The child will view the world as a terrible place. The abuse during their childhood will traumatize them from trying out new things.</p></div>
+
+
+
+<div class="col-2"><p style="font-family: verdana"><b>Discipline Strategies</b>
+<br>
+The Parent should first consider thinking before acting. Parents needs to observe their surroundings first, and where they are and how is the child behaving. Think carefully of a punishment for the child to deal with without any injuries. The child has the right to complain of course but they have to abide by the parents' rules. And by the right age, the parent can trust the child in reflecting his/her own actions.</p> </div>
+</div>
+
+</div>
+
+</p>
+
+</article>
+
+
+<article id="child-rights">
+<h1> CHILD RIGHTS </h1>
+    	<article><p style="font-family: verdana"><b>CHILD RIGHTS</b></br>
+The complete official text</p><br><br>
+
+<p style="font-family: verdana"><b>THIS DECLARATION OF THE RIGHTS OF THE CHILD</b> to the end that he may have a happy childhood and enjoy for his own good and for the good of society the rights and freedoms herein set forth, and calls upon parents, upon men and women as individuals, and upon voluntary organizations, local authorities and national Governments to recognize these rights and strive for their observance by legislative and other measures progressively taken in accordance with the following principles:<br><br>
+
+1. The child shall enjoy all the rights set forth in this Declaration. Every child, without any exception whatsoever, shall be entitled to these rights, without distinction or discrimination on account of race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status, whether of himself or of his family.<br><br>
+
+2. The child shall enjoy special protection, and shall be given opportunities and facilities, by law and by other means, to enable him to develop physically, mentally, morally, spiritually and socially in a healthy and normal manner and in conditions of freedom and dignity. In the enactment of laws for this purpose, the best interests of the child shall be the paramount consideration.<br><br>
+
+3. The child shall be entitled from his birth to a name and a nationality.<br><br>
+
+4. The child shall enjoy the benefits of social security. He shall be entitled to grow and develop in health; to this end, special care and protection shall be provided both to him and to his mother, including adequate pre-natal and post-natal care. The child shall have the right to adequate nutrition, housing, recreation and medical services.<br><br>
+
+5. The child who is physically, mentally or socially handicapped shall be given the special treatment, education and care required by his particular condition.<br><br>
+
+6. The child, for the full and harmonious development of his personality, needs love and understanding. He shall, wherever possible, grow up in the care and under the responsibility of his parents, and, in any case, in an atmosphere of affection and of moral and material security; a child of tender years shall not, save in exceptional circumstances, be separated from his mother. Society and the public authorities shall have the duty to extend particular care to children without a family and to those without adequate means of support. Payment of State and other assistance towards the maintenance of children of large families is desirable.<br><br>
+
+7. The child is entitled to receive education, which shall be free and compulsory, at least in the elementary stages. He shall be given an education which will promote his general culture and enable him, on a basis of equal opportunity, to develop his abilities, his individual judgement, and his sense of moral and social responsibility, and to become a useful member of society.
+<br>
+
+The best interests of the child shall be the guiding principle of those responsible for his education and guidance; that responsibility lies in the first place with his parents.
+<br>
+The child shall have full opportunity for play and recreation, which should be directed to the same purposes as education; society and the public authorities shall endeavour to promote the enjoyment of this right.<br><br>
+
+8. The child shall in all circumstances be among the first to receive protection and relief.<br><br>
+
+9. The child shall be protected against all forms of neglect, cruelty and exploitation. He shall not be the subject of traffic, in any form.<br>
+The child shall not be admitted to employment before an appropriate minimum age; he shall in no case be caused or permitted to engage in any occupation or employment which would prejudice his health or education, or interfere with his physical, mental or moral development. <br><br>
+
+10. The child shall not be admitted to employment before an appropriate minimum age; he shall in no case be caused or permitted to engage in any occupation or employment which would prejudice his health or education, or interfere with his physical, mental or moral development.</p>
+</article>
+</section>
+ 
+
+<section id="comic">
+<h1> COMIC </h1>
+
+<article>
+<center><img src="images/comic-title-logo.jpg"><br>
+<p>Welcome to the comic section. Start reading <a href="#chapter1">Chapter One</a> now, enjoy!</p></center></article>
+
+
+<article id="characters">
+    	<h1> CHARACTERS </h1>
+<article>
+<p><b>Children</b></p>
+<div class="grid-container outline">
+    <div class="row">
+<div class="col-3">
+<center><a href="images/turn-catherine.jpg" target="_new"><img src="images/icon-catherine.png" title="click to see full turn around!"></a></center>
+<p><b>Catherine:</b> <br> 
+- Straight A student who tried to committed suicide<br>
+- has an adopted father who's working abroad in Saudi but was killed in an accident related to his job.<br>
+- Adopted mother went into depression, after the husband died, had to be admitted in a mental institution
+</p></div>
+
+<div class="col-3"><p>
+<center><a href="images/turn-arthur.jpg" target="_new"><img src="images/icon-arthur.png" title="click to see full turn around!"></a></center>
+<p><b>Arthur:</b><br>
+Captain of the varsity basketball team - very popular<br>
+- Only child - Born into a well-to-do family.<br>
+- Parents committed the son to a "fixed" marriage, with the daughter of the business partner<br>
+- Undeclared gay, with as secret gay lover</p></div>
+
+<div class="col-3">
+<center><a href="images/turn-jason.jpg" target="_new"><img src="images/icon-jason.png" title="click to see full turn around!"></a></center>
+<p><b>Jason:</b><br>
+- the handicapped<br>
+- son of Dianne, brother of Anna<br>
+- Had a congenital disease, born without legs<br>
+- Son of Dianne, and brother of Anna<br>
+- Very talented painter,  one of the beneficiaries of charities - supported by Fionna</p></div></div></div>
+
+<b><p>Parents</p></b>
+<div class="grid-container outline">
+<div class="row">
+<div class="col-1">
+<a href="images/turn-dianne.jpg" target="_new"><img src="images/icon-dianne.png" title="click to see full turn around!"></a>
+<p><b>Dianne:</b><br>
+- Mother of Anna and Jason<br>
+- Guidance Counselor to Catherine<br>
+- Friend of Fionna</p></div>
+
+<div class="col-1">
+<a href="images/turn-tom.jpg" target="_new"><img src="images/icon-tom.png" title="click to see full turn around!"></a>
+<p><b>Tom:</b><br>
+- Husband of Dianne and father of Jason and Anna<br>
+- Loving and humble father to his wife and children<br>
+- Supportive father to his family's future</p></div>
+
+<div class="col-1">
+<a href="images/turn-fionna.jpg" target="_new"><img src="images/icon-fionna.png" title="click to see full turn around!"></a>
+<p><b>Fionna:</b><br>
+- The Socialite philanthropist<br>
+- Mother of Arthur<br>
+- Wife of Tom<br>
+- Poster mother to Catherine<br>
+- Benefactor of Dianne and her son - Jason</p></div>
+
+<div class="col-1">
+<a href="images/turn-louie.jpg" target="_new"><img src="images/icon-louie.png" title="click to see full turn around!"></a>
+<p><b>Louie:</b><br>
+- Husband of Fionna and father of Arthur<br>
+- Ruthless business man and tycoon<br>
+- Loves his wife desperately</p></div></div></div>
+</article>
+
+
+<article id="chapter1">
+<center>
+<h1>CHAPTER ONE:<br><br>CHILDREN'S STORIES</h1>
+    <!-- use jssor.slider.min.js instead for release -->
+    <!-- jssor.slider.min.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script>
+        jssor_slider1_starter = function (containerId) {
+            var options = {
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 0,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$(containerId, options);
+        };
+    </script>
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 612px; height: 685px; ">
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 612px; height: 685px;
+            overflow: hidden;">
+            <div><img u="image" src="comic/ch1page1.jpg" /></div>
+            <div><img u="image" src="comic/ch1page2.jpg" /></div>
+            <div><img u="image" src="comic/ch1page3.jpg" /></div>
+            <div><img u="image" src="comic/ch1page4.jpg" /></div>
+            <div><img u="image" src="comic/ch1page5.jpg" /></div>
+            <div><img u="image" src="comic/ch1page6.jpg" /></div>
+            <div><img u="image" src="comic/ch1page7.jpg" /></div>
+        </div>
+        <!--#region Arrow Navigator Skin Begin -->
+        <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+        <style>
+            /* jssor slider arrow navigator skin 03 css */
+            /*
+            .jssora03l                  (normal)
+            .jssora03r                  (normal)
+            .jssora03l:hover            (normal mouseover)
+            .jssora03r:hover            (normal mouseover)
+            .jssora03l.jssora03ldn      (mousedown)
+            .jssora03r.jssora03rdn      (mousedown)
+            */
+            .jssora03l, .jssora03r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+                background: url(img/a03.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora03l { background-position: -3px -33px; }
+            .jssora03r { background-position: -63px -33px; }
+            .jssora03l:hover { background-position: -123px -33px; }
+            .jssora03r:hover { background-position: -183px -33px; }
+            .jssora03l.jssora03ldn { background-position: -243px -33px; }
+            .jssora03r.jssora03rdn { background-position: -303px -33px; }
+        </style>
+                <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora03l" style="top: 280px; left: 8px; background-color: #C2C2C2;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora03r" style="top: 280px; right: 8px; background-color: #C2C2C2">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+        <!-- Trigger -->
+        <script>
+            jssor_slider1_starter('slider1_container')
+        </script>
+    </div>
+    <!-- Jssor Slider End -->
+<p><a href="#chapter2">Go to next chapter</a></p>
+</center>
+</article>
+
+<article id="chapter2">
+<center>
+<h1>CHAPTER TWO:<br><br>BIGGEST DREAMER<br></h1>
+<!-- use jssor.slider.min.js instead for release -->
+    <!-- jssor.slider.min.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script>
+        jssor_slider2_starter = function (containerId) {
+            var options = {
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 0,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$(containerId, options);
+        };
+    </script>
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider2_container" style="position: relative; top: 0px; left: 0px; width: 612px; height: 677px; ">
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 612px; height: 677px;
+            overflow: hidden;">
+            <div><img u="image" src="comic/ch2page1.jpg" /></div>
+            <div><img u="image" src="comic/ch2page2.jpg" /></div>
+            <div><img u="image" src="comic/ch2page3.jpg" /></div>
+            <div><img u="image" src="comic/ch2page4.jpg" /></div>
+            <div><img u="image" src="comic/ch2page5.jpg" /></div>
+            <div><img u="image" src="comic/ch2page6.jpg" /></div>
+            <div><img u="image" src="comic/ch2page7.jpg" /></div>
+	    <div><img u="image" src="comic/ch2page8.jpg" /></div>
+	    <div><img u="image" src="comic/ch2page9.jpg" /></div>
+	    <div><img u="image" src="comic/ch2page10.jpg" /></div>
+        </div>
+        <!--#region Arrow Navigator Skin Begin -->
+        <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+        <style>
+            /* jssor slider arrow navigator skin 03 css */
+            /*
+            .jssora03l                  (normal)
+            .jssora03r                  (normal)
+            .jssora03l:hover            (normal mouseover)
+            .jssora03r:hover            (normal mouseover)
+            .jssora03l.jssora03ldn      (mousedown)
+            .jssora03r.jssora03rdn      (mousedown)
+            */
+            .jssora03l, .jssora03r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+                background: url(img/a03.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora03l { background-position: -3px -33px; }
+            .jssora03r { background-position: -63px -33px; }
+            .jssora03l:hover { background-position: -123px -33px; }
+            .jssora03r:hover { background-position: -183px -33px; }
+            .jssora03l.jssora03ldn { background-position: -243px -33px; }
+            .jssora03r.jssora03rdn { background-position: -303px -33px; }
+        </style>
+                <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora03l" style="top: 280px; left: 8px; background-color: #C2C2C2;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora03r" style="top: 280px; right: 8px; background-color: #C2C2C2">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+        <!-- Trigger -->
+        <script>
+            jssor_slider2_starter('slider2_container')
+        </script>
+    </div>
+    <!-- Jssor Slider End -->
+<p><a href="#chapter1">Go back to previous chapter</a><br>
+<a href="#chapter3">Go to next chapter</a></p>
+</center>
+</article>
+
+
+<article id="chapter3">
+<center>
+<h1>CHAPTER THREE:<br><br>HELLO DAUGHTER</h1>
+<!-- use jssor.slider.min.js instead for release -->
+    <!-- jssor.slider.min.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script>
+        jssor_slider3_starter = function (containerId) {
+            var options = {
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 0,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider3 = new $JssorSlider$(containerId, options);
+        };
+    </script>
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider3_container" style="position: relative; top: 0px; left: 0px; width: 612px; height: 669px; ">
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 612px; height: 669px;
+            overflow: hidden;">
+            <div><img u="image" src="comic/ch3page1.jpg" /></div>
+            <div><img u="image" src="comic/ch3page2.jpg" /></div>
+            <div><img u="image" src="comic/ch3page3.jpg" /></div>
+            <div><img u="image" src="comic/ch3page4.jpg" /></div>
+        </div>
+        
+        <!--#region Arrow Navigator Skin Begin -->
+        <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+        <style>
+            /* jssor slider arrow navigator skin 03 css */
+            /*
+            .jssora03l                  (normal)
+            .jssora03r                  (normal)
+            .jssora03l:hover            (normal mouseover)
+            .jssora03r:hover            (normal mouseover)
+            .jssora03l.jssora03ldn      (mousedown)
+            .jssora03r.jssora03rdn      (mousedown)
+            */
+            .jssora03l, .jssora03r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+                background: url(img/a03.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora03l { background-position: -3px -33px; }
+            .jssora03r { background-position: -63px -33px; }
+            .jssora03l:hover { background-position: -123px -33px; }
+            .jssora03r:hover { background-position: -183px -33px; }
+            .jssora03l.jssora03ldn { background-position: -243px -33px; }
+            .jssora03r.jssora03rdn { background-position: -303px -33px; }
+        </style>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora03l" style="top: 280px; left: 8px; background-color: #C2C2C2;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora03r" style="top: 280px; right: 8px; background-color: #C2C2C2">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+        <!-- Trigger -->
+        <script>
+            jssor_slider3_starter('slider3_container')
+</script>
+        </div>
+    <!-- Jssor Slider End -->
+<p><a href="#chapter2">Go back to previous chapter</a><br>
+<a href="#chapter4">Go to next chapter</a></p>
+</center>
+</article>
+
+
+<article id="chapter4">
+<center>
+<h1>CHAPTER FOUR:<br><br>DIFFERENT SON</h1>
+<!-- use jssor.slider.min.js instead for release -->
+    <!-- jssor.slider.min.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script>
+        jssor_slider4_starter = function (containerId) {
+            var options = {
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 0,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider4 = new $JssorSlider$(containerId, options);
+        };
+    </script>
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider4_container" style="position: relative; top: 0px; left: 0px; width: 612px; height: 683px; ">
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 612px; height: 683px;
+            overflow: hidden;">
+            <div><img u="image" src="comic/ch4page1.jpg" /></div>
+            <div><img u="image" src="comic/ch4page2.jpg" /></div>
+            <div><img u="image" src="comic/ch4page3.jpg" /></div>
+            <div><img u="image" src="comic/ch4page4.jpg" /></div>
+            <div><img u="image" src="comic/ch4page5.jpg" /></div>
+            <div><img u="image" src="comic/ch4page6.jpg" /></div>
+            <div><img u="image" src="comic/ch4page7.jpg" /></div>
+            <div><img u="image" src="comic/ch4page8.jpg" /></div>
+            <div><img u="image" src="comic/ch4page9.jpg" /></div>
+            <div><img u="image" src="comic/ch4page10.jpg" /></div>
+            <div><img u="image" src="comic/ch4page11.jpg" /></div>
+            <div><img u="image" src="comic/ch4page12.jpg" /></div>
+            <div><img u="image" src="comic/ch4page13.jpg" /></div>
+            <div><img u="image" src="comic/ch4page14.jpg" /></div>
+        </div>
+        
+        <!--#region Arrow Navigator Skin Begin -->
+        <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+        <style>
+            /* jssor slider arrow navigator skin 03 css */
+            /*
+            .jssora03l                  (normal)
+            .jssora03r                  (normal)
+            .jssora03l:hover            (normal mouseover)
+            .jssora03r:hover            (normal mouseover)
+            .jssora03l.jssora03ldn      (mousedown)
+            .jssora03r.jssora03rdn      (mousedown)
+            */
+            .jssora03l, .jssora03r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+                background: url(img/a03.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora03l { background-position: -3px -33px; }
+            .jssora03r { background-position: -63px -33px; }
+            .jssora03l:hover { background-position: -123px -33px; }
+            .jssora03r:hover { background-position: -183px -33px; }
+            .jssora03l.jssora03ldn { background-position: -243px -33px; }
+            .jssora03r.jssora03rdn { background-position: -303px -33px; }
+        </style>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora03l" style="top: 280px; left: 8px; background-color: #C2C2C2;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora03r" style="top: 280px; right: 8px; background-color: #C2C2C2">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+        <!-- Trigger -->
+        <script>
+            jssor_slider4_starter('slider4_container')
+        </script>
+    </div>
+    <!-- Jssor Slider End -->
+<p><a href="#chapter3">Go back to previous chapter</a><br>
+<a href="#chapter5">Go to next chapter</a></p>
+</center>
+</article>
+
+
+<article id="chapter5">
+<center>
+<h1>CHAPTER FIVE:<br><br>NICE MEETING YOU</h1>
+<!-- use jssor.slider.min.js instead for release -->
+    <!-- jssor.slider.min.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script>
+        jssor_slider5_starter = function (containerId) {
+            var options = {
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 0,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider5 = new $JssorSlider$(containerId, options);
+        };
+    </script>
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider5_container" style="position: relative; top: 0px; left: 0px; width: 612px; height: 683px; ">
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 612px; height: 683px;
+            overflow: hidden;">
+            <div><img u="image" src="comic/ch5page1.jpg" /></div>
+            <div><img u="image" src="comic/ch5page2.jpg" /></div>
+            <div><img u="image" src="comic/ch5page3.jpg" /></div>
+            <div><img u="image" src="comic/ch5page4.jpg" /></div>
+            <div><img u="image" src="comic/ch5page5.jpg" /></div>
+        </div>
+        
+        <!--#region Arrow Navigator Skin Begin -->
+        <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+        <style>
+            /* jssor slider arrow navigator skin 03 css */
+            /*
+            .jssora03l                  (normal)
+            .jssora03r                  (normal)
+            .jssora03l:hover            (normal mouseover)
+            .jssora03r:hover            (normal mouseover)
+            .jssora03l.jssora03ldn      (mousedown)
+            .jssora03r.jssora03rdn      (mousedown)
+            */
+            .jssora03l, .jssora03r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+                background: url(img/a03.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora03l { background-position: -3px -33px; }
+            .jssora03r { background-position: -63px -33px; }
+            .jssora03l:hover { background-position: -123px -33px; }
+            .jssora03r:hover { background-position: -183px -33px; }
+            .jssora03l.jssora03ldn { background-position: -243px -33px; }
+            .jssora03r.jssora03rdn { background-position: -303px -33px; }
+        </style>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora03l" style="top: 280px; left: 8px; background-color: #C2C2C2;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora03r" style="top: 280px; right: 8px; background-color: #C2C2C2">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+        <!-- Trigger -->
+        <script>
+            jssor_slider5_starter('slider5_container')
+        </script>
+    </div>
+    <!-- Jssor Slider End -->
+<p><a href="#chapter4">Go back to previous chapter</a><br>
+<a href="#chapter5">Go to next chapter</a></p>
+</center>
+</article>
+
+
+<article id="chapter6">
+<center>
+<h1>CHAPTER SIX:<br><br>CAMPSTORY'S END</h1>
+<!-- use jssor.slider.min.js instead for release -->
+    <!-- jssor.slider.min.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script>
+        jssor_slider6_starter = function (containerId) {
+            var options = {
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 0,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider6 = new $JssorSlider$(containerId, options);
+        };
+    </script>
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider6_container" style="position: relative; top: 0px; left: 0px; width: 612px; height: 684px; ">
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 612px; height: 684px;
+            overflow: hidden;">
+            <div><img u="image" src="comic/ch6page1.jpg" /></div>
+            <div><img u="image" src="comic/ch6page2.jpg" /></div>
+            <div><img u="image" src="comic/ch6page3.jpg" /></div>
+            <div><img u="image" src="comic/ch6page4.jpg" /></div>
+            <div><img u="image" src="comic/ch6page5.jpg" /></div>
+        </div>
+        
+        <!--#region Arrow Navigator Skin Begin -->
+        <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+        <style>
+            /* jssor slider arrow navigator skin 03 css */
+            /*
+            .jssora03l                  (normal)
+            .jssora03r                  (normal)
+            .jssora03l:hover            (normal mouseover)
+            .jssora03r:hover            (normal mouseover)
+            .jssora03l.jssora03ldn      (mousedown)
+            .jssora03r.jssora03rdn      (mousedown)
+            */
+            .jssora03l, .jssora03r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+                background: url(img/a03.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora03l { background-position: -3px -33px; }
+            .jssora03r { background-position: -63px -33px; }
+            .jssora03l:hover { background-position: -123px -33px; }
+            .jssora03r:hover { background-position: -183px -33px; }
+            .jssora03l.jssora03ldn { background-position: -243px -33px; }
+            .jssora03r.jssora03rdn { background-position: -303px -33px; }
+        </style>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora03l" style="top: 280px; left: 8px; background-color: #C2C2C2;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora03r" style="top: 280px; right: 8px; background-color: #C2C2C2">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+        <!-- Trigger -->
+        <script>
+            jssor_slider6_starter('slider6_container')
+        </script>
+    </div>
+    <!-- Jssor Slider End -->
+<p><a href="#chapter5">Go back to previous chapter</a><br>
+You have reached the end of the comic. Thank you for reading!</p>
+</center>
+</article>
+</section>
+
+<section id="contact">
+<article>
+<h1> CONTACT US </h1>
+
+<p>Want to seek professional help? Want to report about a child? Go to any of these official child-helping organizations:</p>
+<center><a href="http://www.unicef.org/philippines/" target="_blank" border="0"><img src="images/unicef_logo.png" width="30%" height="30%"></a> <a href="http://www.savethechildren.org.ph/" target="_blank" border="0"><img src="images/sci-logo.jpg"></a> <a href="http://childhope.hope.org.ph/" target="_blank" border="0"><img src="images/child-hope.png"></a></center>
+
+<p>Give us feedback on what we could improve on!</p>
+<center>
+<div id="form-main">
+<div id="form-div">
+
+<form class="form" id="form1">
+
+
+<p class="name">
+
+<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+ </p>
+
+
+<p class="email">
+ 
+ <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+</p>
+
+<p class="subject">
+<input name="subject" type="text" class="validate[required,custom[subject]] feedback-input" id="subject" placeholder="Subject" />
+</p>
+      
+      
+
+<p class="text">
+<textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea></p>
+      
+      
+      
+
+<div class="submit">
+
+<input type="submit" value="SEND" id="button-blue"/> <input type="reset" value="RESET" id="button-blue"/>
+
+<div class="ease"></div></div>
+
+
+    </form>
+
+</div>
+</article>
+</center>
+
+
+
+</section>
+
+<footer><div class="grid-container outline">
+    <div class="row">
+<div class="col-3"><img src="images/logo.png" width="40%" height="40%"></div>
+
+<div class="col-3"><p>Lock-On: Homes Copyright 2015</p><br>
+<div style="text-align:center;"><script type="text/javascript" src="http://services.webestools.com/cpt_visitors/29256-10-5.js"></script></div><a href="http://www.webestools.com/" style="display:block;text-align:center;" title="Tools services webmasters counters generators scripts tutorials free" target="_new"></a></div>
+
+<div class="col-3"><p><b>Share Us:</b><br>
+<a href="https://twitter.com/share?text=Visit Lock-On: Homes now and read about the 10 basic rights of the child!&amp;url=https://lockon-homes.com&amp;name=Lock-On: Homes&amp;hashtags=LockonHomes" onclick="centeredPopup(this.href,'myWindow','700','400','yes');return false"><img src="images/twit-icon.png" alt="twitter">&nbsp;<a href="http://www.facebook.com/sharer.php?u=https://lockon-homes.com" onclick="centeredPopup(this.href,'myWindow','700','400','yes');return false"><img src="images/fb-icon.png" alt="facebook"></p></div>
+
+</div></div>
+
+</footer>   
+
+</div>
+</body>
+</html>
